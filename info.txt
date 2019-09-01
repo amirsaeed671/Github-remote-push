@@ -1,0 +1,10 @@
+
+1) mkdir test
+2) cd test
+3) curl -u USERNAME https://api.github.com/user/repos -d "{\"name\":\"REPONAME\"}" (replace username & repo name)
+4) git init
+5) echo "ADD README CONTENT" > README.md
+6) git add README.md
+7) git commit -m "hehe"
+8) git remote add origin git@github.com:username/reponame.git (Replace username & repo name)
+9) git push -u origin master
